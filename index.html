@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+            color: #333; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(to right top, #ff9aa2, #ffaeb9, #ffc2cd, #ffd5df, #fde9ef);
+            overflow: hidden;
+        }
+        canvas {
+            box-shadow: black 20px 10px 50px;
+        }
+        #reload {
+            background-color: black;
+            color: #fde9ef;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1rem;
+            border-radius: 5px;
+            margin-top: 5px;
+            padding: 5px 10px 5px 10px;
+            border: 5px solid black;
+            box-shadow: black 10px 10px 50px;
+        }
+        footer {
+            font-family: 'Courier New', Courier, monospace;               
+            font-weight: bold;  
+            margin-top: 10px;  
+            margin-bottom: 0;    
+        }
+        footer > a {
+            text-decoration: none;
+            
+        }
+    </style>
+    <title>Snake Game</title>
+</head>
+<body>
+    <h1>Snacking Snake</h1>
+    <ul>
+        <li>Use arrow key to move</li>
+        <li>The Game is over if you hit the wall or hit snake body</li>
+    </ul>
+    <canvas id="game" height="400" width="500"></canvas>
+    <button type="button" id="reload">Play Again</button>
+    <footer> 
+        <a href="https://github.com/Ariesan/BlobsGame">Coded</a> by <a href="https://ariesan.github.io/">Ariesan</a> 
+    </footer>
+    <script src="app.js"></script>
+    
+</body>
+</html>
