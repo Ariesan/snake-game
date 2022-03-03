@@ -6,4 +6,4 @@ how to code and listen the keyboard,
 how to make the snack for snake pop up randomly using Math.random, 
 and how to create several rules for game over thing.
 
-You can try this game in here : 
+You can try this game in here : https://ariesan.github.io/snake-game/
